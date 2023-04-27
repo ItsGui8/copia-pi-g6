@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<meta charset="utf-8">
+</head>
+<body>
+		<section>
+			<header><p>Usuário</p></header>
+			<nav>
+				<ul>
+					<li><a class="a-menu" href="estoque.html">Estoque</a></li>
+					<li><a class="a-menu" href="cadastro.html">Cadastrar Produto</a></li>
+					<li><a class="a-menu" href="vendas.html">Vendas</a></li>
+					<div class="pag-atual"><li><a class="a-menu" href="#">Entradas</a></li></div>
+					<li><a class="a-menu" href="fluxo.html">Fluxo</a></li>
+					<li><a class="a-menu" href="comandas.html">Comandas</a></li>
+					<li><a href="index.html"><img src="img\Logout.png" /></a></li>
+				</ul>
+			</nav>
+			<main>
+				<h1>Entradas</h1>
+				<h2>Histórico de Entradas</h2>
+				<section class="sec-entradas">
+					<table>
+						  <tr>
+						    <th>Data/Hora</th>
+						    <th>Produto</th>
+						    <th>Quantidade</th>
+						    <th>Custo</th>
+						    <th>Total</th>
+						  </tr>
+
+						  <tr>
+						  	<td>01/01/2023 19:30</td>
+						  	<td>Cerveja DOMUM</td>
+						  	<td>100</td>
+						  	<td>R$9,99</td>
+						  	<td>R$999,00</td>
+						  </tr>
+
+						  <tr>
+						  	<td>01/01/2023 19:30</td>
+						  	<td>Cerveja DOMUM</td>
+						  	<td>100</td>
+						  	<td>R$9,99</td>
+						  	<td>R$999,00</td>
+						  </tr>
+
+						  <tr>
+						  	<td>01/01/2023 19:30</td>
+						  	<td>Cerveja DOMUM</td>
+						  	<td>100</td>
+						  	<td>R$9,99</td>
+						  	<td>R$999,00</td>
+						  </tr>
+
+						  <tr>
+						  	<td>01/01/2023 19:30</td>
+						  	<td>Cerveja DOMUM</td>
+						  	<td>100</td>
+						  	<td>R$9,99</td>
+						  	<td>R$999,00</td>
+						  </tr>
+					</table>
+
+					<h2>Adicionar entrada</h2> <a href="cadastro.html"><button type="button" id="ircad">Ir para Cadastrar Produto</button></a>
+					<div class="linha-1-entradas">
+						<a href="lercodbarra-ent.html"><button type="button" id=""><img src="img\Barcode.png" />Ler Código</button></a>
+						ou
+						<label><img src="img\Keyboard.png" /></label>
+						<input type="text" name="digite" id="digite" placeholder="Digite o Código" />
+					</div>
+
+					<div class="linha-2-entradas">
+						<label><img src="img\Beer.png" /></label>
+						<input type="text" name="produto-nome" id="produto-nome" placeholder="Nome do Produto" />
+						
+						<label><img src="img\Box.png" /></label>
+						<input type="text" name="produto-quantidade" id="produto-quantidade" placeholder="Quantidade" />
+					</div>
+
+					<button type="submit">Confirmar</button>
+					<button type="reset">Cancelar</button>
+				</section>
+
+			</main>
+		</section>
+</body>
+</html>
